@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fb.css" type="text/css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a class="logo-text" href="index.html">facebook</a>
+            </div>
+            <div class="login">
+                <form action="">
+                <table class="login-controls">
+                    <tr>
+                        <td class="col1"></td>
+                        <td class="col2"></td>
+                        <td class="col3"></td>
+                    </tr>
+                    <tr>
+                        <td><label class="login-label">Email or Mobile</label></td>
+                        <td><label class="login-label">Password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input class="sub-btn" type="submit" value="Login"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a class="forgotten" href="forgotten.html">Forgotten account?</a></td>
+                    </tr>
+                </table></form>
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="left-section">
+                <p class="para">Facebook helps you connect and share with the <br>people in your life.</p>
+                <img class="image" src="ntwrk.png" alt="">
+            </div>
+            <div class="right-section">
+                <div>
+                    <p class="create">Create an account</p>
+                    <p class="it">It's free and always will be.</p>
+                    <div class="first-name"></div>
+                </div>
+                <div class="signup-controls">
+                    <form action="" id="signup-form" class="signup-form">
+                        <tr>
+                            <td><input name="fname" type="text" placeholder="First name" class="first-name"></td>
+                            <td><input name="sname" type="text" placeholder="Surname"></td>
+                        </tr><br>
+                        <tr>
+                            <td><input name="emailAddress" type="text" placeholder="Mobile number or email address"></td><br>
+                            <!-- <td><input name="password" type="text" placeholder="New password"></td> -->
+                            <input type="password" name="password" id="password" class="demoInputBox" onKeyUp="checkPasswordStrength();" /><div id="password-strength-status"></div>
+                            <input class="left" id="password_again" placeholder="Enter Password again" name="password_again" />
+                            <br>
+                            <td><p>Birthday</p></td>
+                            
+                            <select name="day" id="">
+                            <td><option value="">Day</option></td>
+                            <td><option value="a">1</option></td></select>
+                            <select name="month" id="">
+                                <td><option value="">Date</option></td>
+                                <td><option value="1">1</option></td></select>
+                                <select name="year" id="">
+                                    <td><option value="">1993</option></td>
+                                    <td><option value="">1992</option></td></select>
+    
+                            </tr>
+                        <p>Please select your gender:</p>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label><br>
+                        <button>Sign up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> 
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script> 
+    <script src="script.js"></script>
+</body>
+</html>

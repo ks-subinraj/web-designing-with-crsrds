@@ -1,0 +1,31 @@
+.header{
+    width: 100%;
+    background: rgb(199, 179, 3);
+    height: 100px;
+
+
+}
+.left_section{
+    width: 20%;
+    height: 500px;
+    float: left;
+    background: lightblue;
+}
+.right_section{
+    width: 100%;
+    height: 500px;
+    
+    background: rgb(0, 191, 255);
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    background: saddlebrown;
+    
+}
+:content{
+    height: 500px;
+}
+body{
+    margin: 0;
+}

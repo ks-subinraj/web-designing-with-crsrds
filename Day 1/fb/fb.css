@@ -1,0 +1,43 @@
+.header{
+    background: #344e89;
+    width: 100%;
+    height: 85px;
+
+}
+body{
+    margin: 0;
+    font-family:  Helvetica, Arial, sans-serif;
+}
+.logo{
+       width: 50%;
+    padding-top: 30px;
+    float: left;
+}
+.login{
+    width: 50%;
+    float: left;
+}
+.logo-text{
+    color: white;
+font-size: 48px;
+font-weight: bold;
+text-decoration: none;
+font-family: Helvetica, Arial, sans-serif;
+margin-left: 236px;
+margin-top: 50px;
+}
+.login-label{
+    color: #ffff;
+    font-size: 15px;
+}
+.login-forgotten{
+    color: #637eb0;
+    font-size: smaller;
+}
+.input-text{
+    
+    width: 100px;
+}
+.login-controls{
+    margin-left: 105px;
+}

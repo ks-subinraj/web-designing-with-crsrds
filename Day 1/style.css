@@ -1,0 +1,41 @@
+button{
+    background: blue;
+    color: rgb(255, 255, 255);
+}
+
+table{
+    color: darkmagenta;
+
+    background: rgb(59, 28, 131);
+}
+#title{
+    color: darkorange;
+}
+.first{
+    color: rgb(0, 255, 179);
+}
+.divi{
+    height: 290px;
+    width: 303px;
+    background: #7400ff;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+    border: 5px solid;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+    border-color: #062da2;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background: tomato;
+    margin: 20px;
+}
+}
+.white{
+    color: white;
+}
